@@ -1,0 +1,17 @@
+.landingPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.landingPage h1 {
+  color: rgb(224, 24, 24);
+}
+.landingPage button {
+  color: rgb(232, 232, 232);
+  width: 200px;
+  height: 40px;
+  background-color: rgb(224, 24, 24);
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+}/*# sourceMappingURL=Landing.css.map */

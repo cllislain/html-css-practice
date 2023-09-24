@@ -1,0 +1,104 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    --animate_duration: 15s;
+}
+
+#intro{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+#intro h1{
+    font-style: bold;
+    margin-top: 45px;
+}
+
+
+#intro .cat{
+    height: auto;
+    max-width: 5%;
+    margin: 40px 10px 0px 0px;
+    --animate_duration: 15s;
+}
+
+#start{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+#start .greet{
+    width: 50%;
+}
+
+#start .GO{
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 0px;
+}
+
+#icon{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px 10px 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.fa-facebook{
+    color: #4267B2;
+    transition: transform .2s;
+}
+.fa-facebook:hover{
+    transform: scale(1.5);
+}
+
+.fa-instagram{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: transform .2s;
+}
+.fa-instagram:hover{
+    transform: scale(1.5);
+}
+
+.fa-twitter{
+    color: #1DA1F2;
+    transition: transform .2s;
+}
+
+.fa-twitter:hover{
+    transform: scale(1.5);
+}
+
+
+.fa-github{
+    color: #171515;
+    transition: transform .2s;
+}
+
+.fa-github:hover{
+    transform: scale(1.5);
+}
+
+.button{
+    margin: 10px;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+}
